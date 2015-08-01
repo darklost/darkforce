@@ -1,0 +1,4 @@
+module gate{
+	void register_logic(string ip, int port);
+
+}

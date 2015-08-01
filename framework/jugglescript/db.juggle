@@ -1,0 +1,12 @@
+module routing{
+	void register_logic(int logicnum, string ip, int port);
+	
+	void register_gate(int gatenum, string ip, int port);
+
+	void register_user(string uuid, string ip, int port);
+
+	void unregister_user(string uuid);
+
+	int get_user(string uuid);
+
+}
